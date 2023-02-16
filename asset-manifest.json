@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/Table-reservation/static/css/main.d6de4a8d.css",
-    "main.js": "/Table-reservation/static/js/main.8e6da902.js",
+    "main.css": "/Table-reservation/static/css/main.165e65c9.css",
+    "main.js": "/Table-reservation/static/js/main.ab160f82.js",
     "static/js/787.1f95ceec.chunk.js": "/Table-reservation/static/js/787.1f95ceec.chunk.js",
+    "static/media/Mario-and-Adrian-2.jpg": "/Table-reservation/static/media/Mario-and-Adrian-2.6ba0e06bfa9c1ea75109.jpg",
     "static/media/bruchetta.svg": "/Table-reservation/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/restaurant-chef.jpg": "/Table-reservation/static/media/restaurant-chef.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek-salad.jpg": "/Table-reservation/static/media/greek-salad.bed423a1fab5b210e347.jpg",
     "static/media/restaurant-food.jpg": "/Table-reservation/static/media/restaurant-food.e8abf5b772b6817189aa.jpg",
     "static/media/Logo.svg": "/Table-reservation/static/media/Logo.f72c913c48c5334f78f2c336ec36f22b.svg",
     "index.html": "/Table-reservation/index.html",
-    "main.d6de4a8d.css.map": "/Table-reservation/static/css/main.d6de4a8d.css.map",
-    "main.8e6da902.js.map": "/Table-reservation/static/js/main.8e6da902.js.map",
+    "static/media/🦆 icon _hamburger menu_.svg": "/Table-reservation/static/media/🦆 icon _hamburger menu_.0da6f67ced800ab909f63d5144de37ee.svg",
+    "static/media/icon-close-menu.svg": "/Table-reservation/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "main.165e65c9.css.map": "/Table-reservation/static/css/main.165e65c9.css.map",
+    "main.ab160f82.js.map": "/Table-reservation/static/js/main.ab160f82.js.map",
     "787.1f95ceec.chunk.js.map": "/Table-reservation/static/js/787.1f95ceec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6de4a8d.css",
-    "static/js/main.8e6da902.js"
+    "static/css/main.165e65c9.css",
+    "static/js/main.ab160f82.js"
   ]
 }
