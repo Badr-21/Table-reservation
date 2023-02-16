@@ -1,0 +1,129 @@
+.booking-form {
+   padding: 2rem 4rem 1rem 4rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #495e57;
+}
+
+.booking-form .form {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.booking-form label {
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: #f4ce14;
+   text-align: left;
+}
+
+.booking-form .form > div {
+   margin-bottom: 2.5rem;
+}
+
+.booking-form input {
+   width: 25rem;
+   height: 2rem;
+}
+
+.booking-form select {
+   width: 25.3rem;
+   height: 2.4rem;
+}
+
+.booking-form .submit {
+   width: 25.3rem;
+   height: 2.5rem;
+   margin-top: 1.8rem;
+   background-color: #f4ce14;
+   border: none;
+   font-weight: bold;
+   border-radius: 1rem;
+}
+
+.booking-form .chefs-image {
+   width: 35rem;
+   border-radius: 1rem;
+}
+
+@media (hover: hover) {
+   .booking-form .submit:hover {
+      cursor: pointer;
+   }
+}
+
+@media (min-width: 1000px) and (max-width: 1115px) {
+   .booking-form .chefs-image {
+      width: 25rem;
+   }
+}
+
+@media (max-width: 1000px) {
+   .booking-form .chefs-image {
+      display: none;
+   }
+
+   .booking-form {
+      justify-content: center;
+   }
+
+   .booking-form input {
+      width: 30rem;
+   }
+
+   .booking-form select {
+      width: 30.3rem;
+   }
+
+   .booking-form .submit {
+      width: 30.3rem;
+   }
+}
+
+@media (max-width: 675px) {
+   .booking-form {
+      justify-content: center;
+   }
+
+   .booking-form input {
+      width: 25rem;
+   }
+
+   .booking-form select {
+      width: 25.3rem;
+   }
+
+   .booking-form .submit {
+      width: 25.3rem;
+   }
+}
+
+@media (max-width: 550px) {
+   .booking-form input {
+      width: 20rem;
+   }
+
+   .booking-form select {
+      width: 20.3rem;
+   }
+
+   .booking-form .submit {
+      width: 20.3rem;
+   }
+}
+
+@media (max-width: 400px) {
+   .booking-form input {
+      width: 15rem;
+   }
+
+   .booking-form select {
+      width: 15.3rem;
+   }
+
+   .booking-form .submit {
+      width: 15.3rem;
+   }
+}

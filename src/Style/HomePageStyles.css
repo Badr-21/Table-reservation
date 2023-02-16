@@ -1,0 +1,251 @@
+.header {
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.icon-hamburger {
+   display: none;
+}
+
+.icon-close {
+   display: none;
+}
+
+.ul {
+   display: flex;
+   list-style: none;
+   column-gap: 1.5rem;
+}
+
+.hero-section {
+   padding: 2rem;
+   display: flex;
+   justify-content: space-around;
+   background-color: #495e57;
+}
+
+.hero-section-text h1 {
+   color: #f4ce14;
+   display: flex;
+   flex-direction: column;
+   line-height: 1;
+}
+
+.hero-section-text h1 span {
+   color: white;
+   font-size: 0.8em;
+   font-weight: normal;
+}
+
+.hero-section-text p {
+   width: 13rem;
+   color: white;
+   margin-bottom: 2rem;
+}
+
+.hero-section-text a {
+   padding: 0.5rem 1rem;
+   text-decoration: none;
+   color: black;
+   background-color: #f4ce14;
+   border-radius: 1rem;
+   font-weight: bold;
+}
+
+.hero-section-image {
+   width: 15rem;
+   height: 18rem;
+   border-radius: 1rem;
+}
+
+.highlights-section {
+   padding: 2rem;
+}
+
+.highlights-section-text {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+}
+
+.highlights-section-text button {
+   padding: 0.5rem 1rem;
+   background-color: #f4ce14;
+   border: none;
+   border-radius: 1rem;
+   font-weight: bold;
+}
+
+.food-items {
+   display: flex;
+   justify-content: center;
+   column-gap: 2rem;
+}
+
+.food-items > div {
+   width: 20rem;
+   padding-bottom: 2rem;
+   background-color: #edefee;
+   border-radius: 1rem 1rem 0 0;
+}
+
+.food-items > div img {
+   width: inherit;
+   height: 13.3rem;
+   border-radius: 1rem 1rem 0 0;
+}
+
+.food-items > div:nth-child(2) img {
+   height: 13.4rem;
+   border-radius: 1rem 1rem 0 0;
+}
+
+.food-items > div .name-price {
+   padding: 0 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.food-items > div .name-price span {
+   color: #ee9f7c;
+   font-weight: bold;
+}
+
+.food-items > div > p {
+   padding: 0 1rem;
+}
+
+.about-section {
+   padding: 2rem;
+   display: flex;
+   justify-content: space-around;
+   background-color: #495e57;
+}
+
+.about-section img {
+   width: 20rem;
+   border-radius: 1rem;
+}
+
+.about-section-text h2 {
+   color: #f4ce14;
+   display: flex;
+   flex-direction: column;
+   line-height: 1;
+}
+
+.about-section-text h2 span {
+   color: white;
+   font-size: 0.8em;
+   font-weight: normal;
+}
+
+.about-section-text p {
+   width: 20rem;
+   color: white;
+}
+
+.footer-section {
+   padding: 1rem 2rem;
+   display: flex;
+   justify-content: space-between;
+   background-color: lightgray;
+}
+
+.footer-section p {
+   font-weight: bold;
+}
+
+@media (hover: hover) {
+   .ul li:hover {
+      cursor: pointer;
+      border-bottom: 1px solid black;
+   }
+
+   button:hover {
+      cursor: pointer;
+   }
+}
+
+@media (max-width: 1050px) {
+   .food-items {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 2rem;
+   }
+}
+
+@media (max-width: 800px) {
+   .about-section {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .about-section-text p {
+      width: auto;
+   }
+}
+
+@media (max-width: 675px) {
+   .booking-form {
+      position: relative;
+   }
+
+   .icon-hamburger {
+      display: block;
+   }
+
+   .icon-close {
+      display: block;
+   }
+
+   .icon-hamburger:hover,
+   .icon-close:hover {
+      cursor: pointer;
+   }
+
+   .nav {
+      padding: 2rem 3rem 2rem 2rem;
+      position: absolute;
+      top: 0rem;
+      left: -13.5rem;
+      z-index: 99;
+      background-color: #edefee;
+      border-radius: 0 1rem 1rem 0;
+   }
+
+   .ul {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+   }
+
+   .ul > li {
+      width: fit-content;
+   }
+
+   .hero-section {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 2rem;
+   }
+
+   .hero-section-text p {
+      width: auto;
+   }
+}
+
+@media (max-width: 400px) {
+   .footer-section {
+      padding: 1rem 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
