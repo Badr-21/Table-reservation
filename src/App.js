@@ -1,16 +1,20 @@
 import "./App.css";
-import { Routes, Route } from "react-router";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router";
 import HomePage from "./components/HomePage";
 import BookingPage from "./components/BookingPage";
 
 function App() {
    return (
-      <div className="App">
-         <Routes>
-            <Route path="/Table-reservation" element={<HomePage />} />
-            <Route path="/Table-reservation/reservation" element={<BookingPage />} />
-         </Routes>
-      </div>
+      <BrowserRouter basename="/">
+         <HashRouter>
+            <div className="App">
+               <Routes>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/reservation" element={<BookingPage />} />
+               </Routes>
+            </div>
+         </HashRouter>
+      </BrowserRouter>
    );
 }
 

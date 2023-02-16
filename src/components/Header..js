@@ -28,7 +28,7 @@ export default function Header() {
             <img className="icon-close" src={iconClose} alt="icon-close" onClick={handleNav} />
             <ul className="ul">
                <li>
-                  <Link to="/Table-reservation" style={visited}>
+                  <Link to="/" style={visited}>
                      Home
                   </Link>
                </li>
